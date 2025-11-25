@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+env/
+venv/
+.env/
+envass/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Data and generated artifacts
+data/raw/
+data/processed/
+data/vector_store/
+data/images/
+
+# Logs and temp
+*.log
+tmp/
+temp/
+
+# Secrets / keys
+.env
+*.env
